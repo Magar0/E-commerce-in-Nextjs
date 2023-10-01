@@ -4,9 +4,9 @@ Data is taken from API https://dummyjson.com.
 
 This is an E-commerce website built in Next.js. I have used different libraries like Bootstrap, Material Ui, React-icon , etc.
    <p align="center">
-      <img src="https://github.com/Magar0/test/assets/35245789/525d3791-cf99-4182-b4b1-fa2b6b9fd6f6" width="100" height="100">
-      <img src="https://github.com/Magar0/test/assets/35245789/b9de73fb-78c4-4558-8af0-a342eb428d11" width="100" height="100">
-      <img src="https://github.com/Magar0/test/assets/35245789/ab1df97f-8d85-4a2f-8f07-515489c138f6" width="100" height="100">
+      <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/73775036-2786-4381-afb2-ec09dc7f678b" width="100" height="100">
+      <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/af4a0e1f-10f0-41ea-9367-12be88c3a09a" width="100" height="100">
+      <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/05b0a6e9-6c4d-4700-83fe-4bc9663051a0" width="100" height="100">
    </p>
 
 
@@ -15,7 +15,7 @@ Page Features:
 1. It is responsive:
    mobile view:
       <p align="center">
-         <img src="https://github.com/Magar0/test/assets/35245789/17895d6b-e11b-4923-8ddc-0d7ae6e3c94a" height="400">
+         <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/0c2f2935-54d2-4012-aaa3-92591d8d08f6" height="400">
          <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/f2aa9ebc-1eb8-464f-8a30-25fcbc21dfa6" height="400">
       </p>
 
@@ -33,12 +33,12 @@ Desktop view:
 
 3. React-infinite-scroll component is used for infinite scroll. Six data is loaded at first and keeps on loading more when scroll down until everything is shown.
    
-   ![ecommerce](https://github.com/Magar0/test/assets/35245789/cbf870ee-c2bf-47ae-9ea8-f6646024d61a)
+      ![ecommerce](https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/2058407e-8903-4f08-aa9b-3bddee37f1ab)
 
 
 
 5. Material UI is used to create modal which pops up on clicking products and closes clicking on cross(close) button or anywhere outside modal.
-      ![Model](https://github.com/Magar0/test/assets/35245789/324d6ab7-6bf1-43cb-841b-ad11444b7510)
+      ![Model](https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/de0c4a5c-f128-4714-8bbf-aec8822e8f29)
 
 
 6. Next.js dynamic route is used to open product page.
@@ -46,7 +46,7 @@ Desktop view:
 
 7. Material UI Popover, disabled button is used in order button in product page.
    
-   ![disable](https://github.com/Magar0/test/assets/35245789/20e895cd-d1df-4423-ac54-58df7e450884)
+      ![disable](https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/28e17114-04b5-4d24-80aa-a7cdf3020351)
 
 
 9. Form validation is there in contact section.
@@ -57,6 +57,6 @@ Desktop view:
 
 10. Google Map is embedded in contact page.
     <p align="center">
-      <img src="https://github.com/Magar0/test/assets/35245789/7a1ef5a7-faa8-4593-ba17-ae733bf9f6c6" width="600">
+      <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/08cd144f-b5c3-483c-aff5-9445912fb21a" width="600">
     </p>
 
