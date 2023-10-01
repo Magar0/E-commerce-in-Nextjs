@@ -1,0 +1,74 @@
+.main_card {
+    transition: all 0.3s;
+    border: none !important;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.main_card:hover {
+    transform: scale(1.2);
+}
+
+.body {
+    width: 100%;
+    border: none;
+}
+
+.body h5 {
+    font-weight: 700;
+}
+
+.body p {
+    font-weight: 300;
+}
+
+.img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .main_card {
+        width: 210px;
+    }
+
+    .main_card img {
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:768px) {
+    .body h5 {
+        font-size: 1.1rem
+    }
+
+    .body p {
+        font-size: 0.9rem;
+    }
+
+    .main_card {
+        width: 150px;
+    }
+}
+
+@media (max-width:576px) {
+
+    .main_card {
+        width: 150px;
+        margin: 15px 5px;
+    }
+
+    .button {
+        font-size: 1.2rem;
+        padding: 7px 15px;
+    }
+}
+
+@media (max-width:400px) {
+    .main_card {
+        width: 110px;
+    }
+}

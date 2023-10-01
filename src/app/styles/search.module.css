@@ -1,0 +1,38 @@
+.search_box {
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    line-height: 0;
+}
+
+.search_box:focus {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: grey;
+}
+
+
+.btn {
+    background-color: #cc5;
+    font-size: 1.3rem;
+    padding: 0.2rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: darkblue;
+    color: #f6ee77;
+}
+
+@media (max-width:576px) {
+    .search_bar {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .search_box {
+        width: 135px;
+    }
+
+}

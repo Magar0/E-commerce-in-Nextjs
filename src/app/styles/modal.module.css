@@ -1,0 +1,90 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    background-color: rgba(147, 208, 115, 0.957);
+    border: none;
+    box-shadow: 24;
+    padding: 3rem;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.modal h2 {
+    font-size: 3rem
+}
+
+.modal li,
+.modal p {
+    font-size: 2rem;
+}
+
+.btn_cross {
+    transition: all;
+}
+
+.btn_cross :hover {
+    background-color: rgb(252, 62, 62);
+    color: #000;
+}
+
+.str {
+    color: #ff9c33;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+
+
+@media (max-width:992px) {
+    .modal {
+        width: 500px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .modal {
+        width: 450px;
+    }
+
+    .modal img {
+        width: 204px;
+        height: auto;
+    }
+
+    .modal h2 {
+        font-size: 2rem
+    }
+
+    .modal li,
+    .modal p {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width:576px) {
+    .modal {
+        max-width: 90vw;
+        padding: 3rem 1rem;
+    }
+
+    .modal img {
+        width: 170px;
+    }
+}
+
+@media (max-width:375px) {
+    .modal img {
+        width: 130px;
+    }
+
+    .modal li,
+    .modal p {
+        font-size: 1.2rem;
+    }
+}
