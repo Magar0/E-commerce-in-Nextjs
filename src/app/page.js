@@ -30,7 +30,6 @@ const Home = () => {
       const limit = 6;
       const skip = pageNo * 6
 
-      console.log("api called");
       const res = await fetch(`https://dummyjson.com/products${type}limit=${limit}&skip=${skip} `)
       const data = await res.json()
 

@@ -1,23 +1,29 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
-const contactSchema = new mongoose.Schema(
+const contactSchema = new Schema(
     {
-        username: {
-            type: String,
-            required: true
-        },
-        email: {
-            type: String,
-            required: true
-        },
-        phone: {
-            type: String,
-            required: true
-        },
-        message: {
-            type: String,
-            required: true
-        },
+        // username: {
+        //     type: String,
+        //     required: true
+        // },
+        // email: {
+        //     type: String,
+        //     required: true
+        // },
+        // phone: {
+        //     type: String,
+        //     required: true
+        // },
+        // message: {
+        //     type: String,
+        //     required: true
+        // },
+
+        username: String,
+        email: String,
+        phone: String,
+        message: String,
+
     },
     {
         timestamp: true

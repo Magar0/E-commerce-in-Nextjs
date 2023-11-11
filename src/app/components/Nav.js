@@ -18,11 +18,11 @@ const Nav = () => {
         <div className={expand ? `${styles.active}` : ""}>
           <ul className={styles.navbar_list}>
 
-            <li> <Link href="/" className={pathname === '/' ? `${styles.active}` : ''} onClick={() => setExpand(false)}> Home </Link> </li>
+            <li> <Link href="/" className={pathname === '/' ? styles.active : ''} onClick={() => setExpand(false)}> Home </Link> </li>
 
-            <li> <Link href="/about" className={pathname === '/about' ? `${styles.active}` : ''} onClick={() => setExpand(false)}> About </Link> </li>
+            <li> <Link href="/about" className={pathname === '/about' ? styles.active : ''} onClick={() => setExpand(false)}> About </Link> </li>
 
-            <li> <Link href="/contact" className={pathname === '/contact' ? `${styles.active}` : ''} onClick={() => setExpand(false)}> Contact Us </Link> </li>
+            <li> <Link href="/contact" className={pathname === '/contact' ? styles.active : ''} onClick={() => setExpand(false)}> Contact Us </Link> </li>
 
           </ul>
         </div>

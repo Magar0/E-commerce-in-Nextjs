@@ -12,10 +12,17 @@ const ContactForm = () => {
   })
   const [status, setStatus] = useState(null)
 
+
   const handleSubmit = async (e) => {
+    if (!user.username || !user.email || !user.phone || !user.message) {
+      console.log("empty");
+      return;
+    }
+
     e.preventDefault();
+
     try {
-      const res = await fetch('/api', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { "Content_Type": "application/json" },
         body: JSON.stringify({
@@ -38,7 +45,12 @@ const ContactForm = () => {
       else {
         setStatus("error")
       }
+
+      setTimeout(() => {
+        setStatus(null)
+      }, 3000);
     }
+
     catch (e) {
       console.log("Error", e)
     }

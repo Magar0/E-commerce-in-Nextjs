@@ -1,15 +1,13 @@
-import dbConnect from "@/utils/dbConnect";
 import Contacts from "@/models/contacts";
 import { NextResponse } from "next/server";
+import connectMongoDb from "@/utils/dbConnect";
 
 
 export async function POST(req, res) {
     try {
         const body = await req.json();
-        await dbConnect();
-
-        await Contacts.creat(body)
-
+        await connectMongoDb();
+        await Contacts.create(body)
         return NextResponse.json(
             { message: "Message sent Successful" },
             { status: 200 }
