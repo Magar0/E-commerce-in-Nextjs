@@ -7,6 +7,7 @@ This is an E-commerce website built in Next.js. I have used different libraries 
       <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/73775036-2786-4381-afb2-ec09dc7f678b" width="100" height="100">
       <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/af4a0e1f-10f0-41ea-9367-12be88c3a09a" width="100" height="100">
       <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/05b0a6e9-6c4d-4700-83fe-4bc9663051a0" width="100" height="100">
+      <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/6e5c56f4-6d3e-4a25-8ad7-705ae4652371" width="100" height="100">
    </p>
 
 
@@ -49,7 +50,7 @@ Desktop view:
       ![disable](https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/28e17114-04b5-4d24-80aa-a7cdf3020351)
 
 
-9. Form validation is there in contact section.
+9. Form validation is there in contact section. And <strong> POST </strong> method is used to add data to <strong> MongoDB </strong>
    <p align="center">
       <img src="https://github.com/Magar0/E-commerce-in-Nextjs/assets/35245789/d638f091-02d3-4977-bbf8-d6a25c0eaf76" height="400">
    </p>
